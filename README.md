@@ -1,3 +1,4 @@
 # LunarTagView
 Custom Label Tag. The length of label changes with the length of text.
-![a gif](https://www.baidu.com/img/2016_4_26logo_843a64cc86a54b8da14d7e9baad4d15f.gif)
+
+![a gif](http://7xljvp.com1.z0.glb.clouddn.com/tag%E8%A7%86%E9%A2%91.gif)
