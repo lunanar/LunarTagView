@@ -46,6 +46,7 @@
                             <constraint firstAttribute="leadingMargin" secondItem="TuO-Qu-T4U" secondAttribute="leading" id="GUs-qH-mSc"/>
                             <constraint firstItem="TuO-Qu-T4U" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="48" id="KE9-OQ-peR"/>
                             <constraint firstAttribute="trailingMargin" secondItem="kU2-AV-YP7" secondAttribute="trailing" constant="150" id="Lpg-t2-gu5"/>
+                            <constraint firstItem="kU2-AV-YP7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="a7p-g5-Hjy"/>
                             <constraint firstItem="kU2-AV-YP7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="aHn-HT-TLJ"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TuO-Qu-T4U" secondAttribute="bottom" id="c5H-jn-VF8"/>
                             <constraint firstItem="TuO-Qu-T4U" firstAttribute="leading" secondItem="kU2-AV-YP7" secondAttribute="leading" id="lZv-b5-ken"/>
@@ -54,8 +55,10 @@
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="62f-wm-tug"/>
+                                <exclude reference="a7p-g5-Hjy"/>
                                 <exclude reference="GUs-qH-mSc"/>
                                 <exclude reference="KE9-OQ-peR"/>
+                                <exclude reference="FLU-LF-a50"/>
                             </mask>
                         </variation>
                     </view>
