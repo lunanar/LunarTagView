@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACC7EA631CCF7FA700306FB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC7EA621CCF7FA700306FB2 /* main.m */; };
+		ACC7EA661CCF7FA700306FB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC7EA651CCF7FA700306FB2 /* AppDelegate.m */; };
+		ACC7EA691CCF7FA700306FB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC7EA681CCF7FA700306FB2 /* ViewController.m */; };
+		ACC7EA6C1CCF7FA700306FB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC7EA6A1CCF7FA700306FB2 /* Main.storyboard */; };
+		ACC7EA6E1CCF7FA700306FB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC7EA6D1CCF7FA700306FB2 /* Assets.xcassets */; };
+		ACC7EA711CCF7FA700306FB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC7EA6F1CCF7FA700306FB2 /* LaunchScreen.storyboard */; };
+		ACC7EA7C1CCF7FA700306FB2 /* LunarTagLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC7EA7B1CCF7FA700306FB2 /* LunarTagLabelTests.m */; };
+		ACC7EA871CCF7FA700306FB2 /* LunarTagLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC7EA861CCF7FA700306FB2 /* LunarTagLabelUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACC7EA781CCF7FA700306FB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACC7EA561CCF7FA700306FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACC7EA5D1CCF7FA700306FB2;
+			remoteInfo = LunarTagLabel;
+		};
+		ACC7EA831CCF7FA700306FB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACC7EA561CCF7FA700306FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACC7EA5D1CCF7FA700306FB2;
+			remoteInfo = LunarTagLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACC7EA5E1CCF7FA700306FB2 /* LunarTagLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunarTagLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC7EA621CCF7FA700306FB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACC7EA641CCF7FA700306FB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACC7EA651CCF7FA700306FB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACC7EA671CCF7FA700306FB2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACC7EA681CCF7FA700306FB2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACC7EA6B1CCF7FA700306FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACC7EA6D1CCF7FA700306FB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACC7EA701CCF7FA700306FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACC7EA721CCF7FA700306FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC7EA771CCF7FA700306FB2 /* LunarTagLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunarTagLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC7EA7B1CCF7FA700306FB2 /* LunarTagLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LunarTagLabelTests.m; sourceTree = "<group>"; };
+		ACC7EA7D1CCF7FA700306FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC7EA821CCF7FA700306FB2 /* LunarTagLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunarTagLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC7EA861CCF7FA700306FB2 /* LunarTagLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LunarTagLabelUITests.m; sourceTree = "<group>"; };
+		ACC7EA881CCF7FA700306FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACC7EA5B1CCF7FA700306FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC7EA741CCF7FA700306FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC7EA7F1CCF7FA700306FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACC7EA551CCF7FA700306FB2 = {
+			isa = PBXGroup;
+			children = (
+				ACC7EA601CCF7FA700306FB2 /* LunarTagLabel */,
+				ACC7EA7A1CCF7FA700306FB2 /* LunarTagLabelTests */,
+				ACC7EA851CCF7FA700306FB2 /* LunarTagLabelUITests */,
+				ACC7EA5F1CCF7FA700306FB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACC7EA5F1CCF7FA700306FB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACC7EA5E1CCF7FA700306FB2 /* LunarTagLabel.app */,
+				ACC7EA771CCF7FA700306FB2 /* LunarTagLabelTests.xctest */,
+				ACC7EA821CCF7FA700306FB2 /* LunarTagLabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACC7EA601CCF7FA700306FB2 /* LunarTagLabel */ = {
+			isa = PBXGroup;
+			children = (
+				ACC7EA641CCF7FA700306FB2 /* AppDelegate.h */,
+				ACC7EA651CCF7FA700306FB2 /* AppDelegate.m */,
+				ACC7EA671CCF7FA700306FB2 /* ViewController.h */,
+				ACC7EA681CCF7FA700306FB2 /* ViewController.m */,
+				ACC7EA6A1CCF7FA700306FB2 /* Main.storyboard */,
+				ACC7EA6D1CCF7FA700306FB2 /* Assets.xcassets */,
+				ACC7EA6F1CCF7FA700306FB2 /* LaunchScreen.storyboard */,
+				ACC7EA721CCF7FA700306FB2 /* Info.plist */,
+				ACC7EA611CCF7FA700306FB2 /* Supporting Files */,
+			);
+			path = LunarTagLabel;
+			sourceTree = "<group>";
+		};
+		ACC7EA611CCF7FA700306FB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACC7EA621CCF7FA700306FB2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACC7EA7A1CCF7FA700306FB2 /* LunarTagLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACC7EA7B1CCF7FA700306FB2 /* LunarTagLabelTests.m */,
+				ACC7EA7D1CCF7FA700306FB2 /* Info.plist */,
+			);
+			path = LunarTagLabelTests;
+			sourceTree = "<group>";
+		};
+		ACC7EA851CCF7FA700306FB2 /* LunarTagLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACC7EA861CCF7FA700306FB2 /* LunarTagLabelUITests.m */,
+				ACC7EA881CCF7FA700306FB2 /* Info.plist */,
+			);
+			path = LunarTagLabelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACC7EA5D1CCF7FA700306FB2 /* LunarTagLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC7EA8B1CCF7FA700306FB2 /* Build configuration list for PBXNativeTarget "LunarTagLabel" */;
+			buildPhases = (
+				ACC7EA5A1CCF7FA700306FB2 /* Sources */,
+				ACC7EA5B1CCF7FA700306FB2 /* Frameworks */,
+				ACC7EA5C1CCF7FA700306FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LunarTagLabel;
+			productName = LunarTagLabel;
+			productReference = ACC7EA5E1CCF7FA700306FB2 /* LunarTagLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACC7EA761CCF7FA700306FB2 /* LunarTagLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC7EA8E1CCF7FA700306FB2 /* Build configuration list for PBXNativeTarget "LunarTagLabelTests" */;
+			buildPhases = (
+				ACC7EA731CCF7FA700306FB2 /* Sources */,
+				ACC7EA741CCF7FA700306FB2 /* Frameworks */,
+				ACC7EA751CCF7FA700306FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACC7EA791CCF7FA700306FB2 /* PBXTargetDependency */,
+			);
+			name = LunarTagLabelTests;
+			productName = LunarTagLabelTests;
+			productReference = ACC7EA771CCF7FA700306FB2 /* LunarTagLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACC7EA811CCF7FA700306FB2 /* LunarTagLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC7EA911CCF7FA700306FB2 /* Build configuration list for PBXNativeTarget "LunarTagLabelUITests" */;
+			buildPhases = (
+				ACC7EA7E1CCF7FA700306FB2 /* Sources */,
+				ACC7EA7F1CCF7FA700306FB2 /* Frameworks */,
+				ACC7EA801CCF7FA700306FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACC7EA841CCF7FA700306FB2 /* PBXTargetDependency */,
+			);
+			name = LunarTagLabelUITests;
+			productName = LunarTagLabelUITests;
+			productReference = ACC7EA821CCF7FA700306FB2 /* LunarTagLabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACC7EA561CCF7FA700306FB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Lunar;
+				TargetAttributes = {
+					ACC7EA5D1CCF7FA700306FB2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					ACC7EA761CCF7FA700306FB2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ACC7EA5D1CCF7FA700306FB2;
+					};
+					ACC7EA811CCF7FA700306FB2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ACC7EA5D1CCF7FA700306FB2;
+					};
+				};
+			};
+			buildConfigurationList = ACC7EA591CCF7FA700306FB2 /* Build configuration list for PBXProject "LunarTagLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACC7EA551CCF7FA700306FB2;
+			productRefGroup = ACC7EA5F1CCF7FA700306FB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACC7EA5D1CCF7FA700306FB2 /* LunarTagLabel */,
+				ACC7EA761CCF7FA700306FB2 /* LunarTagLabelTests */,
+				ACC7EA811CCF7FA700306FB2 /* LunarTagLabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACC7EA5C1CCF7FA700306FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC7EA711CCF7FA700306FB2 /* LaunchScreen.storyboard in Resources */,
+				ACC7EA6E1CCF7FA700306FB2 /* Assets.xcassets in Resources */,
+				ACC7EA6C1CCF7FA700306FB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC7EA751CCF7FA700306FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC7EA801CCF7FA700306FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACC7EA5A1CCF7FA700306FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC7EA691CCF7FA700306FB2 /* ViewController.m in Sources */,
+				ACC7EA661CCF7FA700306FB2 /* AppDelegate.m in Sources */,
+				ACC7EA631CCF7FA700306FB2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC7EA731CCF7FA700306FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC7EA7C1CCF7FA700306FB2 /* LunarTagLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC7EA7E1CCF7FA700306FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC7EA871CCF7FA700306FB2 /* LunarTagLabelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACC7EA791CCF7FA700306FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACC7EA5D1CCF7FA700306FB2 /* LunarTagLabel */;
+			targetProxy = ACC7EA781CCF7FA700306FB2 /* PBXContainerItemProxy */;
+		};
+		ACC7EA841CCF7FA700306FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACC7EA5D1CCF7FA700306FB2 /* LunarTagLabel */;
+			targetProxy = ACC7EA831CCF7FA700306FB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACC7EA6A1CCF7FA700306FB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC7EA6B1CCF7FA700306FB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACC7EA6F1CCF7FA700306FB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC7EA701CCF7FA700306FB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACC7EA891CCF7FA700306FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACC7EA8A1CCF7FA700306FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACC7EA8C1CCF7FA700306FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LunarTagLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eagle.LunarTagLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACC7EA8D1CCF7FA700306FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LunarTagLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eagle.LunarTagLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACC7EA8F1CCF7FA700306FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LunarTagLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eagle.LunarTagLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LunarTagLabel.app/LunarTagLabel";
+			};
+			name = Debug;
+		};
+		ACC7EA901CCF7FA700306FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LunarTagLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eagle.LunarTagLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LunarTagLabel.app/LunarTagLabel";
+			};
+			name = Release;
+		};
+		ACC7EA921CCF7FA700306FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LunarTagLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eagle.LunarTagLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LunarTagLabel;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ACC7EA931CCF7FA700306FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LunarTagLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eagle.LunarTagLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LunarTagLabel;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACC7EA591CCF7FA700306FB2 /* Build configuration list for PBXProject "LunarTagLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC7EA891CCF7FA700306FB2 /* Debug */,
+				ACC7EA8A1CCF7FA700306FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC7EA8B1CCF7FA700306FB2 /* Build configuration list for PBXNativeTarget "LunarTagLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC7EA8C1CCF7FA700306FB2 /* Debug */,
+				ACC7EA8D1CCF7FA700306FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACC7EA8E1CCF7FA700306FB2 /* Build configuration list for PBXNativeTarget "LunarTagLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC7EA8F1CCF7FA700306FB2 /* Debug */,
+				ACC7EA901CCF7FA700306FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACC7EA911CCF7FA700306FB2 /* Build configuration list for PBXNativeTarget "LunarTagLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC7EA921CCF7FA700306FB2 /* Debug */,
+				ACC7EA931CCF7FA700306FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACC7EA561CCF7FA700306FB2 /* Project object */;
+}
