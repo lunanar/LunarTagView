@@ -7,21 +7,42 @@
 //
 
 #import "ViewController.h"
+#import "LunarTagView.h"
 
-@interface ViewController ()
+@interface ViewController ()<UITextFieldDelegate>
+
+@property (strong, nonatomic) IBOutlet UITextField *textField;
+
+@property (strong, nonatomic) IBOutlet LunarTagView *tagView;
+
 
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.tagView.textArr = [[NSMutableArray alloc] initWithObjects:@"7月",@"8月",@"9月",@"10月", nil];
+    self.tagView.textHeight = 20;
+    self.tagView.textWidth = 50;
+    self.tagView.textFont = 16;
 }
 
+
+- (IBAction)addBtnClicked:(UIButton *)sender {
+    if ([self.textField.text length]) {
+        [self.tagView.textArr addObject:self.textField.text];
+        [self.tagView addTag:self.tagView.textArr];
+    }
+}
+
+
 - (void)didReceiveMemoryWarning {
+    
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
 }
 
 @end

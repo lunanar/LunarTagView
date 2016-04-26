@@ -15,6 +15,7 @@
 		ACC7EA711CCF7FA700306FB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC7EA6F1CCF7FA700306FB2 /* LaunchScreen.storyboard */; };
 		ACC7EA7C1CCF7FA700306FB2 /* LunarTagLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC7EA7B1CCF7FA700306FB2 /* LunarTagLabelTests.m */; };
 		ACC7EA871CCF7FA700306FB2 /* LunarTagLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC7EA861CCF7FA700306FB2 /* LunarTagLabelUITests.m */; };
+		ACC7EA971CCF7FFC00306FB2 /* LunarTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC7EA961CCF7FFC00306FB2 /* LunarTagView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		ACC7EA821CCF7FA700306FB2 /* LunarTagLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunarTagLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC7EA861CCF7FA700306FB2 /* LunarTagLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LunarTagLabelUITests.m; sourceTree = "<group>"; };
 		ACC7EA881CCF7FA700306FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC7EA951CCF7FFC00306FB2 /* LunarTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunarTagView.h; sourceTree = "<group>"; };
+		ACC7EA961CCF7FFC00306FB2 /* LunarTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunarTagView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		ACC7EA601CCF7FA700306FB2 /* LunarTagLabel */ = {
 			isa = PBXGroup;
 			children = (
+				ACC7EA941CCF7FE400306FB2 /* Tag */,
 				ACC7EA641CCF7FA700306FB2 /* AppDelegate.h */,
 				ACC7EA651CCF7FA700306FB2 /* AppDelegate.m */,
 				ACC7EA671CCF7FA700306FB2 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				ACC7EA881CCF7FA700306FB2 /* Info.plist */,
 			);
 			path = LunarTagLabelUITests;
+			sourceTree = "<group>";
+		};
+		ACC7EA941CCF7FE400306FB2 /* Tag */ = {
+			isa = PBXGroup;
+			children = (
+				ACC7EA951CCF7FFC00306FB2 /* LunarTagView.h */,
+				ACC7EA961CCF7FFC00306FB2 /* LunarTagView.m */,
+			);
+			name = Tag;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				ACC7EA691CCF7FA700306FB2 /* ViewController.m in Sources */,
 				ACC7EA661CCF7FA700306FB2 /* AppDelegate.m in Sources */,
 				ACC7EA631CCF7FA700306FB2 /* main.m in Sources */,
+				ACC7EA971CCF7FFC00306FB2 /* LunarTagView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
